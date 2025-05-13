@@ -291,10 +291,11 @@ h6 {
     font-size: 3rem;
     color: var(--primary-color);
     margin-bottom: 15px;
+    display: block;
 }
 
-.contact-method {
-    margin-bottom: 30px;
+.text-muted {
+    color: #6c757d;
 }
 
 /* ==========================================================================
