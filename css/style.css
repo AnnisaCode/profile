@@ -253,6 +253,39 @@ h6 {
     font-size: 0.9rem;
 }
 
+/* Skills Container & Items */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.skill-item {
+    background-color: var(--bg-accent);
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px var(--shadow-color);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: 500;
+}
+
+.skill-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.skill-item i {
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+.text-purple {
+    color: #7952b3;
+}
+
 .skill-category {
     margin-bottom: 30px;
 }
